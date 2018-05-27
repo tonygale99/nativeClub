@@ -104,7 +104,7 @@ class Services extends React.Component {
    //this.ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
 
   // this.state = {  data: []};
-  alert(JSON.stringify(this.props.navigation.state.params));
+  //alert(JSON.stringify(this.props.navigation.state.params));
   let targetUrl=this.props.navigation.state.params.data;
 
 //default value
@@ -121,7 +121,7 @@ class Services extends React.Component {
           tableNum=params[i+1];
       }
   }
-  
+
   this.state = {selected: [],data: [],memberId:null,phone:null,name:null,clubId:clubId,tableNum:tableNum};
  }
 
