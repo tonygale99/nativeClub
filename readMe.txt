@@ -6,6 +6,8 @@ Note, current only has android versiion available.
 	c. copy and paste apk file to android device.
 	d. go to Setting-> lock screen and security , open "unknown sources" 
 	e. double click the apk file to install.
+	f. open/print the qrcode.png, use the android phone scan it to start.
+	
 	
 2. test on android device without install.
 	a. clone the repository from github
@@ -21,3 +23,4 @@ Note, current only has android versiion available.
 	d. open command window and change directory to nativeClub
 	e. run "react-native run-android" and wait until uild is done.
 
+	
