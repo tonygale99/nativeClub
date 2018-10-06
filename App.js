@@ -20,7 +20,7 @@ import QRCodeScreen from './src/components/QRCodeScreen';
 import Services from './src/components/Services';
 
 import Register from './src/components/Register';
-
+import Dept from './src/components/Department';
 import OrderSummary from './src/components/OrderSummary';
 
 
@@ -39,7 +39,7 @@ export default class App extends React.Component {
             <Scene key='Services' component={Services} title='Services'> </Scene>
             <Scene key='OrderDetails' component={OrderDetails} title='OrderDetails'> </Scene>
             <Scene key='Register' component={Register} title='Register'> </Scene>
-            
+            <Scene key='Dept' component={Dept} title='Department'> </Scene>
             <Scene key='OrderSummary' component={OrderSummary} title='OrderSummary'> </Scene>
         </Scene>
       </Router>

@@ -1,5 +1,5 @@
 {
-  "name": "nativeClub",
+  "name": "nativeclub",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -11,6 +11,7 @@
     "react-native": "^0.55.3",
     "react-native-camera": "^0.6.0",
     "react-native-elements": "^0.19.1",
+    "react-native-fcm": "^15.0.2",
     "react-native-router-flux": "^4.0.0-beta.28",
     "react-native-swipe-list-view": "^1.0.7",
     "react-native-swipeout": "^2.3.3",

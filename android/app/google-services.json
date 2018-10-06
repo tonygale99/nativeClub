@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "765676401642",
+    "firebase_url": "https://nativeclub-e6cf4.firebaseio.com",
+    "project_id": "nativeclub-e6cf4",
+    "storage_bucket": "nativeclub-e6cf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765676401642:android:61607cf7dc6ed393",
+        "android_client_info": {
+          "package_name": "com.nativeclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765676401642-l1sopaiicnsafebh0tju021p1fhf5pk9.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "765676401642-l1sopaiicnsafebh0tju021p1fhf5pk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7Gq7PMLvPDm9_v1mlFCsmD_hLH1cpOdk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

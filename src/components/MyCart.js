@@ -170,7 +170,7 @@ class MyCart extends React.Component {
 
               this.state.deleted.splice(i, 1);
 
-              alert('unselect:' + item.name);
+            //  alert('unselect:' + item.name);
 
             //  return this.state.deleted;
 
@@ -234,7 +234,7 @@ this.setState({memberId:memberId,phoneNum:phoneNum,name:name});
 //let member= await AsyncStorage.getItem('member');
 
 //let parsedMember=JSON.parse(member);
-//alert(JSON.stringify(parsedMember));
+
 
   //  this.setState({memberId:parsedMember.memberId,phone:parsedMember.phone,name:parsedMember.name});
 

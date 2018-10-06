@@ -85,7 +85,7 @@ class FlatListItem extends Component{
                                 height: 100
 
                             }}>
-            <Text style={{  padding: 10,   fontSize: 16,  }} >
+            <Text style={{  padding: 10,   fontSize: 16  }} >
               {this.props.item.name}  {this.props.item.defaultPrice}
             </Text>
           </View>
@@ -108,7 +108,7 @@ class Services extends React.Component {
   let targetUrl=this.props.navigation.state.params.data;
 
 //default value
-  let clubId='5b00a78e6f1ba44104740768';
+  let clubId=configConstants.CLUBID;
   let tableNum='1A';
   if(targetUrl){
 
@@ -219,9 +219,11 @@ async  componentDidMount(){
   let parsedMember=JSON.parse(member);
 
   this.setState({memberId:parsedMember.memberId,phone:parsedMember.phone,name:parsedMember.name});
-  let uri=configConstants.RESTAPI+'/service/club/5b00a78e6f1ba44104740768/tableNum/1A';
 
-   fetch(configConstants.RESTAPI+'/service/club/5b00a78e6f1ba44104740768/tableNum/1A', {
+  //alert(parsedMember.memberId);
+  let uri=configConstants.RESTAPI+'/service/club/'+configConstants.CLUBID+'/tableNum/'+this.state.tableNum;
+
+   fetch(configConstants.RESTAPI+'/service/club/'+configConstants.CLUBID+'/tableNum/'+this.state.tableNum, {
     method: 'GET',
     headers: {
       Accept: 'application/json',

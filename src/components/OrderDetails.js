@@ -37,7 +37,7 @@ class OrderDetils extends React.Component {
  }
  submitOrder(){
 
-    fetch(configConstants.RESTAPI+'/order/club/5a79432a7245eaad9987187d/tableNum/'+this.state.tableNum, {
+    fetch(configConstants.RESTAPI+'/order/club/'+configConstants.CLUBID+'/tableNum/'+this.state.tableNum, {
      method: 'POST',
      headers: {
        Accept: 'application/json',
